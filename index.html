@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript" src="main.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<head>
+	<title>Mysite</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="description" content="awesome site">
+	<meta name="keywords" content="tech company, industry 4.0, web design blog">
+</head>
+
+<body id="main-text">
+	<header id ="main-header"><h1>Pattern replace</h1></header>
+	<section>
+	<article>
+	<h2> First example	</h2>
+	<small> Written by Jose, Jan 2022</small>
+	<p>
+	Input strings in the prefix or sufix of position of a determined pattern in the text.
+	Take for instance the following text where we want to replace all the numbers by their bold versions in LaTex, and also getting rid of trash symbols - like parantheses that accompany the numbers.
+	</p>
+	
+	<img src="img-1.png" alt="1st Example">
+	<br>
+	The result shows the text ready to be copied to a Latex editor.
+	<h3>Raw result: </h3>
+	<img src="img-2.png" alt="1st Example">
+	<br>
+	<h3>Final result (Latex):</h3>
+	<img src="img-3.png" alt="1st Example">
+	<br>
+	<br>
+	Future customization will be available, but the JS code can be changed as per your requirement.
+	<a href="index.html" target="_blank"> Go to the main page</a>
+	</article>
+	</section>
+	<section>
+	<article>
+	<!-- <h3> Second post	</h3> -->
+	
+	<!--
+	<p>
+		Dictas salutatus ei his, est debitis probatus ex. His porro percipitur ad, stet dicant placerat ut cum, ex nec integre noluisse. Quodsi partiendo splendide ei his. Mel saperet labores assentior et, ut labitur iuvaret disputando eum. No vis dolores inciderint persequeris. Eu eos summo aliquando, commune quaestio ut duo, an eos eros vidit magna. Ut alii quaeque mentitum pro, mei id vivendo probatus senserit, nam mnesarchum complectitur ei.
+		Eam quem cibo scriptorem ne, falli sapientem vulputate vis ei, vix ea duis wisi noster. Vitae patrioque eum id, no mel nobis gloriatur. His vidisse epicuri eu. Vel ex quis populo theophrastus. Pro zril phaedrum ne, quidam tritani voluptatum cum in, cum no consetetur definiebas neglegentur.
+	</p>-->
+	<a href="http:www.wikipedia.com"> Read more</a>
+	</article>
+	</section>
+	<aside>
+		<nav>
+		<ul>
+			<li><a href="#"><abbr title="click here please"> Upcoming update </abbr></a></li>
+			<li><a href="#"> Future updates</a></li>
+		</ul>
+		</nav>
+	</aside>
+	
+	
+	<div class="container"> 
+	<center>
+		<br>
+		<button onclick="myscript()">EXECUTE</button>
+		<button style="margin-left: 4em" onclick="reset()">RESET</button>
+		<br> <br>
+  	<textarea id="mybox" name="box" rows="20" cols="100"></textarea>
+		<br>
+		<br>		
+		<button onclick="clipcopy()">COPY TO CLIPBOARD</button>
+		<br>
+		<br>
+		<textarea id="myboxresult" name="boxes" rows="20" cols="100"></textarea>
+  </center>
+	</div>
+	
+	<footer id ="main-footer"><h3>Copyright &copy; 2020</h3></footer>
+</body>
+</html>
