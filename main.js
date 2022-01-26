@@ -54,7 +54,7 @@ function myscript() {
 	for (var i=0; i < firstmatch.length;i++){
 		newtext = newtext.replaceAll(firstmatch[i], prefix.concat(matchesnonrepeat[i],"} "));
 		myText = newtext;
-		newtext = newtext.replace(secondmatch[i], prefix.concat(matchesnonrepeat[i],"}, "));
+		newtext = newtext.replaceAll(secondmatch[i], prefix.concat(matchesnonrepeat[i],"}, "));
 		myText = newtext;
 		newtext = newtext.replace(thirdmatch[i], prefix.concat(matchesnonrepeat[i],"}. "));
 		myText = newtext;
