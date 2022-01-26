@@ -56,7 +56,7 @@ function myscript() {
 		myText = newtext;
 		newtext = newtext.replaceAll(secondmatch[i], prefix.concat(matchesnonrepeat[i],"}, "));
 		myText = newtext;
-		newtext = newtext.replace(thirdmatch[i], prefix.concat(matchesnonrepeat[i],"}. "));
+		newtext = newtext.replaceAll(thirdmatch[i], prefix.concat(matchesnonrepeat[i],"}. "));
 		myText = newtext;
 		newtext = newtext.replace(fourtmatch[i], prefix.concat(matchesnonrepeat[i],"}."));
 		myText = newtext;
