@@ -82,4 +82,3 @@ function reset() {
 	document.getElementById("mybox").value = "";
 	document.getElementById("myboxresult").value = "";
 }
-
