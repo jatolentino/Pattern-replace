@@ -8,7 +8,6 @@ let prefnumb = ['(1','(2','(3','(4','(5','(6','(7','(8','(9','(0'];
 let firstProtect = "reservoir 1";
 let secondProtect = "reservoir 2";
 
-
 function myscript() {
 
 	let myText = document.getElementById('mybox').value;
